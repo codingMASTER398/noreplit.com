@@ -8,9 +8,18 @@ body {
 }
 
 hr{
-  width: 50%;
+  width: 100%;
   opacity: 0.5;
   margin-right: 50%;
+}
+
+#heading { 
+  width: min-content;
+}
+
+#heading:hover {
+  font-style: italic;
+  color: rgb(187, 175, 175);
 }
 
 #whatHappened{
@@ -30,6 +39,11 @@ hr{
   filter: contrast(90%);
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card.big p{
@@ -120,7 +134,6 @@ i{
 table {
   border-collapse: collapse;
   width: 100%;
-  max-width: 50%; /* Adjust the maximum width as needed */
 }
 
 /* Style the table header */
@@ -160,12 +173,23 @@ td {
   }
 }
 
-a { 
-  color: lightblue;
+a {
+	color: #34c9fa;
+	text-decoration-style: dashed;
+	text-underline-offset: 5px;
+	text-decoration-color: rgb(117 209 239 / 50%);
+	transition: 120ms ease-out;
+	width: fit-content;
+	position: relative;
+	top: 0;
+	/* filter: drop-shadow(0 2px 2px var(--text-shadow)); */
 }
 
 a:hover {
-  color: rgb(93, 209, 248);
+	color: #A7E1F3;
+	top: -2px;
+	filter: drop-shadow(0 4px 2px rgb(117 209 239 / 50%));
+	text-decoration-color: #A7E1F3;
 }
 
 quote{
