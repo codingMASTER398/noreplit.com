@@ -2,7 +2,7 @@
 
 body {
   margin: 100px;
-  background-color: #333745;
+  background: linear-gradient(216deg, rgba(51,55,69,1) 0%, rgba(34,42,70,1) 100%);
   color: #FCFAFA;
   font-family: 'Roboto Mono';
 }
