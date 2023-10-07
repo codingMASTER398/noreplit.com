@@ -398,7 +398,6 @@
   </ol>
   <p>These alternatives offer a range of features for coding, collaboration, deployment, and experimentation, catering
     to various development needs and preferences.</p>
-  </div>
   <footer>
     <p>
       List by <a href="https://replit.com/@techwithanirudh">@techwithanirudh</a>
