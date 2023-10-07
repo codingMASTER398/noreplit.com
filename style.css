@@ -158,13 +158,13 @@ td {
   border-right: 1px solid #0c90aa;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1280px) {
   body{
     margin: 30px;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1280px) {
   .card{
     width: 100%;
   }
