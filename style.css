@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
-  margin: 100px;
+  margin: 0 auto;
+  max-width: 1280px;
   background: linear-gradient(216deg, rgba(51,55,69,1) 0%, rgba(34,42,70,1) 100%);
   color: #FCFAFA;
   font-family: 'Roboto Mono';
@@ -67,7 +68,7 @@ hr{
 }
 
 .card:nth-child(4) {
-  background-color: hsl(50, 100%, 40%); /* Darker color */
+  background-color: hsl(50, 88%, 33%); /* Darker color */
 }
 
 .card:nth-child(5) {
@@ -75,19 +76,19 @@ hr{
 }
 
 .card:nth-child(6) {
-  background-color: hsl(180, 100%, 40%); /* Darker color */
+  background-color: hsl(180, 88%, 32%); /* Darker color */
 }
 
 .card:nth-child(7) {
-  background-color: hsl(90, 100%, 40%); /* Darker color */
+  background-color: hsl(90, 92%, 29%); /* Darker color */
 }
 
 .card:nth-child(8) {
-  background-color: hsl(20, 100%, 50%); /* Darker color */
+  background-color: hsl(20, 94%, 41%); /* Darker color */
 }
 
 .card:nth-child(9) {
-  background-color: hsl(150, 100%, 40%); /* Darker color */
+  background-color: hsl(150, 88%, 33%); /* Darker color */
 }
 
 .card:nth-child(10) {
@@ -157,13 +158,13 @@ td {
   border-right: 1px solid #0c90aa;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1280px) {
   body{
     margin: 30px;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1280px) {
   .card{
     width: 100%;
   }
