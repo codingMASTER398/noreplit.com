@@ -436,6 +436,11 @@
     "So, what? Replit is just not free anymore? Hosting on Replit was already frustrating enough with the slow speeds
     and the sleepy repls, and now you’re just pulling the plug entirely? Wow."
     <span>~ wutadamyt</span>
+  </quote><br/><br/>
+  <quote>
+    "I used to use Replit a lot. But now, I can't find myself using it in the near future. I don't like what Replit has
+    done to the platform, and I am in the process of switching over to better, cheaper cloud providers."
+    <span>~ datkat21</span>
   </quote>
 
   <hr>
