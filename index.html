@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <h1>noreplit.com</h1>
+  <i>Disclaimer: This is about community management and pricing. The tech, design & prototyping are all great.</i>
+  <hr>
+  <p> Over the past few months, Replit.com has changed their pricing drastically to the point where it is simply not
+    viable.
+    <br> We, along with many others, have used Replit for years- however, at its current point we are all looking for
+    alternatives.
+    <br> This website covers <b>what happened, alternatives, and a letter</b> to help you transition away from the
+    platform.
+  </p>
+  <hr>
+  <h3>What happened?</h3>
+  <section id="whatHappened">
+    <div class="card">
+      <h3>Nerfing Hacker Plan</h3>
+      <!-- I'm reading the replit docs, gimme asec -->
+      <!-- Hmm, reading about other stuff on replit like egress limits and who left replit because of that, and other ask posts -->
+      <p>
+        The cutback of "Always On" instances from five to one hit Hacker Plan users hard,
+        who used to enjoy five continuous repls but now are limited to just one.
+        This shift likely disrupted many users' workflows and slowed down project progress.
+      </p>
+      <p>
+        Similarly, reducing boosts from five to one negatively affected the user experience.
+        While Replit aimed to align resources with costs, this change might have
+        eroded the Hacker Plan's appeal, causing dissatisfaction among its users.
+      </p>
+
+    </div>
+    <div class="card">
+      <h3>Outrageous AI</h3>
+      <p>Replit's enduring focus on AI and LLMs have put them in a state of throwing money at a losing battle. Although
+        Ghostwriter is $10/month, it uses the same technology one can get for extraordinarily less from OpenAI.</p>
+      <p>Trending Repls have been focused on AI, as well as the company's social media accounts & most heavily, their
+        CEO.</p>
+    </div>
+    <div class="card">
+      <h3>10x Hike in Power-ups</h3>
+      <p>
+        Replit's price hike for power-ups like Boosts and the Always On feature greatly affected its mostly student and
+        budding coder user base. The increased costs, from 2 to 70 cycles/day for a Boost and 2 to 20 cycles/day for the
+        Always On feature, made these features less accessible, impacting the learning community.
+      </p>
+      <p>
+        The community backlash was notable, with many finding the new pricing off-putting. This led some to abandon the
+        Hacker Plan or even Replit, as the Hacker Plan's affordability, a key attraction, seemed compromised.
+      </p>
+
+
+    </div>
+    <div class="card">
+      <h3>Actually laughable "Reserved VMs"</h3>
+      <p>
+        The first offender of their Deployments is Reserved VMs. For the lowest tier, <b>you get 0.25vCPUs, 1GiB of RAM,
+          and 10GiB of outbound data transfer.</b></p>
+      <p>On platforms such as <a href="https://digitalocean.com/">DigitalOcean</a> and AWS, they can be more than 70%
+        cheaper.</p>
+      <div>
+        <div class="comparison">
+          <span class="vendor">Replit.com</span>
+          <br>
+          <span class="value">0.25vCPU/1GB RAM/10GB transfer</span>
+        </div>
+        <br>
+        <div class="comparison">
+          <span class="vendor">DigitalOcean.com</span>
+          <br>
+          <span class="value">1vCPU/1GB RAM/1TB transfer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Intentionally misleading "Autoscale"</h3>
+      <p>Replit's version of a worker-like VM is Autoscale. You get <b>3 MILLION</b> free compute "units" per month with
+        Hacker.</p>
+      <p>
+        If you're confused by what that means, everyone else is too. Replit's site says that most projects will use
+        under 20 cents a month, however with a DDoS bypass or a "viral Repl", you can easily incur costs upwards of
+        hundreds of dollars.</p>
+      <p>
+        On their pricing page, if you had the <b>Lowest Tier</b> Autoscale running for a full month with constant load,
+        you would incur ~$64/month.</p>
+    </div>
+
+    <div class="card">
+      <h3>Uncompetitive Static</h3>
+      <p>Replit's static deployments is just that- static site hosting. Just one small issue, and pay attention- all of
+        these sites are free.</p>
+      <div class="comparison">
+        <span class="vendor">Replit.com</span>
+        <br>
+        <span class="value">10GiB transfer</span>
+      </div>
+      <br>
+      <div class="comparison">
+        <span class="vendor">Github Pages</span>
+        <br>
+        <span class="value">100GiB transfer</span>
+      </div>
+      <br>
+      <div class="comparison">
+        <span class="vendor">Cloudflare Pages</span>
+        <br>
+        <span class="value">"Unlimited" transfer</span>
+      </div>
+
+      <i>*Cloudflare's Pages obviously isn't unlimited, however will incur terabytes of transfer before you may get a
+        friendly email.</i>
+    </div>
+
+    <div class="card">
+      <!-- Don't make them too large! The cards aren't that big... -->
+      <h3>Egress Limits</h3>
+      <p>
+        On April 7, 2023, Replit set egress limits across all plans. Aimed at controlling outbound data transfer, this
+        move faced backlash, especially from the Free tier users.
+      </p>
+      <p>
+        With limits set at 10 GiB for Free, 50 GiB for Hacker, and 100 GiB for Pro tiers, many found them restrictive,
+        disrupting workflows, particularly for those using free resources for learning and small projects.
+      </p>
+
+
+      <div class="comparison">
+        <span class="vendor">Replit.com</span>
+        <br>
+        <span class="value">$0.1/GiB, 10GiB FREE</span>
+      </div>
+      <br>
+      <div class="comparison">
+        <span class="vendor">DigitalOcean.com</span>
+        <br>
+        <span class="value">$0.01/GiB, 500GiB FREE</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Replit.dev</h3>
+      <p>
+        The final blow came when Replit announced that repls could only be run within the IDE, eliminating the option to
+        share them outside - now, Replit Deployments stood as the sole avenue.
+      </p>
+      <p>
+        This decision seemed to counter Replit's user-friendly ethos, sparking widespread confusion and shock within the
+        community.
+      </p>
+      <p>
+        The announcement led to a significant backlash, drama, and a series of bans.
+      </p>
+      <p>
+        This upheaval drove away thousands of notable creators, including coding398 (known for projects like gdaybot and
+        cheesgle), further distancing the community from Replit.
+      </p>
+
+    </div>
+
+    <div class="card">
+      <h3>Misleading Bounties</h3>
+      <p>
+        The top 50 most "rewarding" open bounties are all stale, having been left open for months with no accepted
+        applicant. Replit still shows this on their "60k+ OPEN" tag, show to every user, including students.</p>
+      <p>The
+        payout is shown in USD and Cycles, but doesn't take into account the 25%-15% cashout fee.</p>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Terrible community management</h3>
+      <p>
+        The 16k+ member Replit Discord community fell to bits after the moderation team wasn't paid any more than their
+        Hacker plan, all nerfed and shiny at $7/month. Understandably, moderators striked, causing Replit to abandon the
+        community altogether.</p>
+      <p>
+        Replit's Reps program was abandoned too, with absolutely no talk of them past the 1st cohort.</p>
+      <p>
+        Jams were reduced from events like <b>Kajam</b> and <b>#madewithreplit</b> to AI hackathons that a 14 year old
+        won with school & no prior experience. Prize pools have dropped from over $10k to around $2k per event, lowering
+        the incentive.
+      </p>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Disrespect.</h3>
+      <p>
+        Need I say more?
+      </p>
+    </div>
+  </section>
+
+  <br>
+  <hr>
+
+  <section id="comparison-table">
+    <h3>The Ultimate Comparison Table™</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Replit</th>
+          <th>DigitalOcean</th>
+          <th>AWS</th>
+        <tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Transfer ($6/month VM)</th>
+          <td>10 GiB free, $0.1/GiB</td>
+          <td>1,000 GiB free, $0.01/GiB</td>
+          <td>$0.08 - $0.2/GiB</td>
+        </tr>
+        <tr>
+          <th>Storage ($6/month VM)</th>
+          <td>10 GB</td>
+          <td>25 GB</td>
+          <td>Depends, varies wildly</td>
+        </tr>
+        <tr>
+          <th>vCPUs ($6/month VM)</th>
+          <td>0.25</td>
+          <td>1</td>
+          <td>Around 2</td>
+        </tr>
+        <tr>
+          <th>RAM ($6/month VM)</th>
+          <td>1GB</td>
+          <td>1GB</td>
+          <td>1GB</td>
+        </tr>
+        <tr>
+          <th>Database (per GB)</th>
+          <td>10 GB for $1/day</td>
+          <td>$0.5-$1/GB (higher, cheaper)</td>
+          <td>$0.115/GB</td>
+        </tr>
+        <tr>
+          <th>Accessibility</th>
+          <td>Piss easy</td>
+          <td>Intermediate, tutorials</td>
+          <td>Expert, easy to lose money</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <h3>Static</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Replit</th>
+          <th>Github</th>
+          <th>CF Pages</th>
+        <tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Storage</th>
+          <td>Account-based, $0.15/GB extra</td>
+          <td>1GB</td>
+          <td>500GB (absolute max)</td>
+        </tr>
+        <tr>
+          <th>Transfer</th>
+          <td>Account-based, $0.1/GiB extra</td>
+          <td>100GiB</td>
+          <td>Unlimited</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <h3>Alternatives</h3>
+  <h4>Completely Free</h4>
+  <ol>
+    <li>
+      <p><a href="https://glitch.com/">Glitch</a></p>
+      <ul>
+        <li><strong>Description:</strong> Glitch is an online coding platform that emphasizes creative and collaborative
+          coding. It allows you to create and remix projects, experiment with coding, and collaborate with others in
+          real time. It's particularly suitable for building interactive web applications.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="http://goorm.io/">Goorm</a>, Credit: python660</p>
+      <ul>
+        <li><strong>Description:</strong> Goorm is a cloud-based development platform originating in South Korea that
+          offers a robust set of features. It provides flexibility in choosing programming languages, database options,
+          and Ubuntu OS versions. With a generous amount of storage and a daily traffic limit of 1GB, it is suitable for
+          both small and large projects. The platform also supports both public and private projects.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://codesandbox.io/">CodeSandbox</a></p>
+      <ul>
+        <li><strong>Description:</strong> CodeSandbox is an online development environment tailored for web
+          applications. It offers a convenient way to create, edit, and test React, Vue, and Angular projects in a
+          sandboxed environment, making it easy to prototype and share code.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="http://stackblitz.com/">StackBlitz</a></p>
+      <ul>
+        <li><strong>Description:</strong> StackBlitz offers an online IDE for web development with features like
+          real-time collaboration and instant dependency searches. It's tailored for front-end development and supports
+          popular web frameworks like Angular, React, and Vue.js.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://hop.io/">Hop</a></p>
+      <ul>
+        <li><strong>Description:</strong> Hop provides an online coding platform that allows you to write, compile, and
+          run code in various programming languages. It offers a user-friendly interface for programming using VSCode.
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://github.com/features/codespaces">GitHub Codespaces</a></p>
+      <ul>
+        <li><strong>Description:</strong> GitHub Codespaces integrates with GitHub repositories, enabling you to create
+          and customize development environments for your projects directly in your browser. This is particularly useful
+          for collaborative coding and maintaining consistent development environments across team members.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://gitpod.io">Gitpod</a></p>
+      <ul>
+        <li><strong>Description:</strong> Gitpod offers ready-to-code development environments for GitHub projects,
+          allowing you to start coding immediately without any setup.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="http://cyclic.sh/">Cyclic.sh</a>, Credit: python660</p>
+      <ul>
+        <li><strong>Description:</strong> Cyclic.sh is a specialized platform for hosting and running scheduled jobs or
+          periodic tasks. The service focuses on ease of use and scalability, allowing you to set up, run, and monitor
+          recurring tasks without the hassle of managing servers or cron jobs.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://vercel.com/">Vercel</a></p>
+      <ul>
+        <li><strong>Description:</strong> Vercel is a cloud platform that specializes in deploying and hosting web
+          applications. It's known for its speed and ease of use, supporting various frameworks and offering features
+          like serverless functions and automatic scaling.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://www.netlify.com/">Netlify</a></p>
+      <ul>
+        <li><strong>Description:</strong> Netlify is a platform focused on web development and deployment. It offers
+          features like continuous integration, automated deployments, and hosting for static sites and web
+          applications. It simplifies the process of deploying and managing web projects.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></p>
+      <ul>
+        <li><strong>Description:</strong> Cloudflare Pages is a free way to deploy static sites. It's great for
+          production-level deployment, providing you with a [project].pages.dev URL, along with support for custom
+          domains and more.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://static.app">Static</a></p>
+      <ul>
+        <li><strong>Description:</strong> Static is a platform that offers simple and fast deployment of static websites
+          with a focus on performance and security.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://onrender.com">Render</a></p>
+      <ul>
+        <li><strong>Description:</strong> Render is a unified platform to build and run all your apps and websites with
+          free SSL, a global CDN, private networks, and auto deploys from Git.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://coder.com">Coder</a></p>
+      <ul>
+        <li><strong>Description:</strong> Coder provides an enterprise-grade development environment that allows
+          developers to code from anywhere.</li>
+      </ul>
+    </li>
+  </ol>
+  <h4>Credit Card Required</h4>
+  <ol>
+    <li>
+      <p><a href="https://www.heroku.com/">Heroku</a></p>
+      <ul>
+        <li><strong>Description:</strong> Heroku is a cloud platform that enables you to deploy, manage, and scale
+          applications. It supports various programming languages and provides tools for continuous integration and
+          delivery.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://www.digitalocean.com/">Digital Ocean</a></p>
+      <ul>
+        <li><strong>Description:</strong> Digital Ocean provides cloud services that help businesses deploy, manage, and
+          scale applications. Their droplets are versatile Linux-based virtual machines.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://aws.amazon.com/ec2/">AWS EC2</a></p>
+      <ul>
+        <li><strong>Description:</strong> Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable
+          compute capacity in the cloud, allowing you to run applications on Amazon's computing environment.</li>
+      </ul>
+    </li>
+    <li>
+      <p><a href="https://www.oracle.com/cloud/">Oracle Cloud</a></p>
+      <ul>
+        <li><strong>Description:</strong> Oracle Cloud offers a comprehensive suite of cloud services, including
+          computing power, storage options, and networking capabilities.</li>
+      </ul>
+    </li>
+  </ol>
+  <p>These alternatives offer a range of features for coding, collaboration, deployment, and experimentation, catering
+    to various development needs and preferences.</p>
+  </div>
+  <footer>
+    <p>
+      List by <a href="https://replit.com/@techwithanirudh">@techwithanirudh</a>
+    </p>
+  </footer>
+
+  <hr>
+
+  <h3>Community quotes</h3>
+
+  <quote>
+    "I've already moved a ton of stuff to DigitalOcean. I won't be coming back. I've had chats with team members, and it's clear that nothing's changing. I'll stay in the community, maybe use it for prototyping, but that's about it."
+    <span>~ coding398</span>
+  </quote>
+  <quote>
+    "Whilst Replit may be the most convenient option, you're paying too much for tha convenience and they don't provide you with enough customisability of what you pay for."
+    <span>~ Dillonb07</span>
+  </quote>
+  <quote>
+    "The young aspiring developers that made Replit the company it is today ultimately have been abandoned and kicked to the curb by the platform with rising costs and and restrictions."
+    <span>~ zavexeon</span>
+  </quote>
+  <quote>
+    "I hope Replit reconsiders the replit.dev thing. Otherwise, it could negatively impact many users. 😔"
+    <span>~ techwithanirudh</span>
+  </quote>
+  <quote>
+    "i love cars"
+    <span>~ el gato tonto</span>
+  </quote>
+  <quote>
+    "You will need either money or a ton of cycles to host a site on Replit. Either one could be acquired by your mom’s credit card, however you could also get cycles by completing bounties or getting tipped on your Repls."
+    <span>~ CoderElijah</span>
+  </quote>
+  <quote>
+    "So, what? Replit is just not free anymore? Hosting on Replit was already frustrating enough with the slow speeds and the sleepy repls, and now you’re just pulling the plug entirely? Wow."
+    <span>~ wutadamyt</span>
+  </quote>
+
+  <hr>
+  <h3>Wrapping up</h3>
+
+  <a href="https://amcforum.wiki/">Sign up to AMC!</a>
+  <p>Want to contribute to this site? <a>Submit a PR</a>!<br>
+  This is in no way an attack on any Replit employee- moreso the pricing & direction.<br>
+  Want something removed that's yours? Reach out to coding398@outlook.com<br>
+  Thanks to techwithanirudh for helping with the website.<br>
+  <br>
+  Created by <a href="https://coding398.dev">coding398</a>, the peak replit complainer.
+  </p>
+</body>
+
+</html>
