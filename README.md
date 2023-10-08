@@ -447,9 +447,9 @@
   <h3>Wrapping up</h3>
 
   <p>Want to contribute to this site? <a href="https://github.com/codingMASTER398/noreplit.com">Submit a PR</a>!<br>
-    This is in no way an attack on any Replit employees - moreso the pricing & direction.<br>
+    This is in no way an attack on any Replit employees - more so the pricing & direction.<br>
     Want something removed that's yours? Reach out to coding398@outlook.com<br>
-    Thanks to @techwithanirudh for helping with the website.<br>
+    Thanks to @techwithanirudh, DillonB07, CodingCactus, Firepup6500, datkat21 and py660 for helping with the website.<br>
     <b>This site was deployed with CloudFlare Pages.</b>
     <br>
     <br>
