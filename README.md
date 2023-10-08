@@ -442,6 +442,10 @@
     done to the platform, and I am in the process of switching over to better, cheaper cloud providers."
     <span>~ datkat21</span>
   </quote>
+  <quote>
+    "I was a power-user a little while back. Migration would be hell. I have tons of websites to port over, and it won't be fun. And that's what <i>was</i> amazing about Replit, you could basically make anything you wanted at any time, at any rate. It's what kept my motivation super high, Now that motivation has dried up."
+    <span>~ EnZon3</span>
+  </quote>
 
   <hr>
   <h3>Wrapping up</h3>
@@ -449,7 +453,7 @@
   <p>Want to contribute to this site? <a href="https://github.com/codingMASTER398/noreplit.com">Submit a PR</a>!<br>
     This is in no way an attack on any Replit employees - moreso the pricing & direction.<br>
     Want something removed that's yours? Reach out to coding398@outlook.com<br>
-    Thanks to @techwithanirudh for helping with the website.<br>
+    Thanks to @techwithanirudh, DillonB07, CodingCactus, Firepup6500, datkat21 and py660 for helping with the website.<br>
     <b>This site was deployed with CloudFlare Pages.</b>
     <br>
     <br>
