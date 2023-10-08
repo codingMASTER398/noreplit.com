@@ -1,7 +1,7 @@
 <h1 id="heading">noreplit.com</h1>
   <i>Disclaimer: This is about community management and pricing. The tech, design & prototyping are all great.</i>
   <a href="https://twitter.com/coding398/status/1710604447641133478">retweet</a><br/>
-  <i>Disclaimer 2: This looks much better on <a href="https://noreplit.com">the site</a><i>
+  <i>Disclaimer 2: This looks much better on <a href="https://noreplit.com">the site</a></i>
   <hr>
   <p id="desc"> Over the past few months, Replit.com has changed their pricing drastically to the point where it is
     simply not
