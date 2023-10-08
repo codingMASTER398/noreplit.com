@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 body {
   margin: 0 auto;
   max-width: 1280px;
-  background: linear-gradient(216deg, rgba(51,55,69,1) 0%, rgba(34,42,70,1) 100%);
-  color: #FCFAFA;
-  font-family: 'Roboto Mono';
+  background: linear-gradient(216deg, rgba(51, 55, 69, 1) 0%, rgba(34, 42, 70, 1) 100%);
+  color: #fcfafa;
+  font-family: "Roboto Mono";
 }
 
-hr{
+hr {
   width: 100%;
   opacity: 0.5;
   margin-right: 50%;
 }
 
-#heading { 
+#heading {
   width: min-content;
 }
 
@@ -23,7 +23,7 @@ hr{
   color: rgb(187, 175, 175);
 }
 
-#whatHappened{
+#whatHappened {
   display: flex;
   gap: 30px;
   flex-direction: row;
@@ -34,20 +34,25 @@ hr{
   width: 400px;
   min-height: 400px;
   border-radius: 6px;
-  background-color: #0EB1D2;
+  background-color: #0eb1d2;
   box-sizing: border-box;
   padding: 32px;
   filter: contrast(90%);
 
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-	transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
 }
 
 .card:hover {
   transform: scale(1.05);
 }
 
-.card.big p{
+.card.big p {
   font-size: x-small;
 }
 
@@ -55,7 +60,7 @@ hr{
   margin-top: 0;
 }
 
-.card p{
+.card p {
   font-size: smaller;
 }
 
@@ -115,20 +120,20 @@ hr{
   background-color: hsl(120, 60%, 40%); /* Darker color */
 }
 
-.comparison{
+.comparison {
   width: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   padding: 8px;
   text-align: center;
   box-sizing: border-box;
 }
 
-.vendor{
+.vendor {
   font-weight: bold;
 }
 
-i{
+i {
   font-size: x-small;
 }
 
@@ -139,7 +144,7 @@ table {
 
 /* Style the table header */
 th {
-  background-color: #0EB1D2; /* Background color for header */
+  background-color: #0eb1d2; /* Background color for header */
   color: #333; /* Text color for header */
   font-weight: bold;
   padding: 10px;
@@ -159,46 +164,58 @@ td {
 }
 
 @media only screen and (max-width: 1280px) {
-  body{
+  body {
     margin: 30px;
   }
 }
 
 @media only screen and (max-width: 1280px) {
-  .card{
-    width: 100%;
+  .card {
+    width: 48%;
   }
 
-  table{
+  table {
     max-width: 100%;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .card {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
 a {
-	color: #34c9fa;
-	text-decoration-style: dashed;
-	text-underline-offset: 5px;
-	text-decoration-color: rgb(117 209 239 / 50%);
-	transition: 120ms ease-out;
-	width: fit-content;
-	position: relative;
-	top: 0;
-	/* filter: drop-shadow(0 2px 2px var(--text-shadow)); */
+  color: #34c9fa;
+  text-decoration-style: dashed;
+  text-underline-offset: 5px;
+  text-decoration-color: rgb(117 209 239 / 50%);
+  transition: 120ms ease-out;
+  width: fit-content;
+  position: relative;
+  top: 0;
+  /* filter: drop-shadow(0 2px 2px var(--text-shadow)); */
 }
 
 a:hover {
-	color: #A7E1F3;
-	top: -2px;
-	filter: drop-shadow(0 4px 2px rgb(117 209 239 / 50%));
-	text-decoration-color: #A7E1F3;
+  color: #a7e1f3;
+  top: -2px;
+  filter: drop-shadow(0 4px 2px rgb(117 209 239 / 50%));
+  text-decoration-color: #a7e1f3;
 }
 
-quote{
+quote {
   display: block;
   margin-bottom: 24px;
 }
 
-quote span{
+quote span {
   font-style: italic;
-  color: gray
+  color: gray;
 }
