@@ -3,7 +3,11 @@
 body {
   margin: 0 auto;
   max-width: 1280px;
-  background: linear-gradient(216deg, rgba(51, 55, 69, 1) 0%, rgba(34, 42, 70, 1) 100%);
+  background: linear-gradient(
+    216deg,
+    rgba(51, 55, 69, 1) 0%,
+    rgba(34, 42, 70, 1) 100%
+  );
   color: #fcfafa;
   font-family: "Roboto Mono";
 }
@@ -24,32 +28,25 @@ hr {
 }
 
 #whatHappened {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .card {
-  width: 400px;
   min-height: 400px;
   border-radius: 6px;
-  background-color: #0eb1d2;
+  background: linear-gradient(216deg, rgb(51, 58, 80) 0%, rgb(37, 44, 68) 100%);
   box-sizing: border-box;
   padding: 32px;
   filter: contrast(90%);
 
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.5);
-}
-
-.card:hover {
-  transform: scale(1.05);
 }
 
 .card.big p {
@@ -58,66 +55,6 @@ hr {
 
 .card h3 {
   margin-top: 0;
-}
-
-.card p {
-  font-size: smaller;
-}
-
-.card:nth-child(2) {
-  background-color: hsl(130, 70%, 40%); /* Darker color */
-}
-
-.card:nth-child(3) {
-  background-color: hsl(16, 70%, 40%); /* Darker color */
-}
-
-.card:nth-child(4) {
-  background-color: hsl(50, 88%, 33%); /* Darker color */
-}
-
-.card:nth-child(5) {
-  background-color: hsl(300, 100%, 40%); /* Darker color */
-}
-
-.card:nth-child(6) {
-  background-color: hsl(180, 88%, 32%); /* Darker color */
-}
-
-.card:nth-child(7) {
-  background-color: hsl(90, 92%, 29%); /* Darker color */
-}
-
-.card:nth-child(8) {
-  background-color: hsl(20, 94%, 41%); /* Darker color */
-}
-
-.card:nth-child(9) {
-  background-color: hsl(150, 88%, 33%); /* Darker color */
-}
-
-.card:nth-child(10) {
-  background-color: hsl(273, 65%, 40%); /* Darker color */
-}
-
-.card:nth-child(11) {
-  background-color: hsl(9, 65%, 45%); /* Darker color */
-}
-
-.card:nth-child(12) {
-  background-color: hsl(210, 50%, 40%); /* Darker color */
-}
-
-.card:nth-child(13) {
-  background-color: hsl(328, 80%, 40%); /* Darker color */
-}
-
-.card:nth-child(14) {
-  background-color: hsl(195, 100%, 40%); /* Darker color */
-}
-
-.card:nth-child(15) {
-  background-color: hsl(120, 60%, 40%); /* Darker color */
 }
 
 .comparison {
@@ -144,23 +81,23 @@ table {
 
 /* Style the table header */
 th {
-  background-color: #0eb1d2; /* Background color for header */
-  color: #333; /* Text color for header */
+  background-color: rgb(51, 58, 80); /* Background color for header */
+  color: #fcfafa; /* Text color for header */
   font-weight: bold;
   padding: 10px;
   text-align: left;
-  border-bottom: 2px solid #0c90aa; /* Bottom border for header row */
-  border-right: 1px solid #0c90aa;
+  border-bottom: 2px solid rgb(114, 129, 180); /* Bottom border for header row */
+  border-right: 1px solid rgb(114, 129, 180);
 }
 
 /* Style the table rows */
 td {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(51, 58, 82);
+  color: #fcfafa;
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #0c90aa; /* Bottom border for all rows */
-  border-right: 1px solid #0c90aa;
+  border-bottom: 1px solid rgb(114, 129, 180); /* Bottom border for all rows */
+  border-right: 1px solid rgb(114, 129, 180);
 }
 
 @media only screen and (max-width: 1280px) {
