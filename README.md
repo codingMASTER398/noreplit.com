@@ -424,10 +424,6 @@
     <span>~ zavexeon</span>
   </quote><br/><br/>
   <quote>
-    "I hope Replit reconsiders the replit.dev thing. Otherwise, it could negatively impact many users. 😔"
-    <span>~ techwithanirudh</span>
-  </quote><br/><br/>
-  <quote>
     "You will need either money or a ton of cycles to host a site on Replit. Either one could be acquired by your mom’s
     credit card, however you could also get cycles by completing bounties or getting tipped on your Repls."
     <span>~ CoderElijah</span>
