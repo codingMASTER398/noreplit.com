@@ -227,8 +227,8 @@ td {
   }
 }
 .card p img {
-max-width:100%;
-max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 a {
   color: #34c9fa;
