@@ -226,9 +226,9 @@ td {
     width: 100%;
   }
 }
-.card p img {
-  max-width: 100%;
-  max-height: 100%;
+.img {
+  max-width: 70%;
+  max-height: 70%;
 }
 a {
   color: #34c9fa;
