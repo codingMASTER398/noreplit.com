@@ -3,7 +3,11 @@
 body {
   margin: 0 auto;
   max-width: 1280px;
-  background: linear-gradient(216deg, rgba(51, 55, 69, 1) 0%, rgba(34, 42, 70, 1) 100%);
+  background: linear-gradient(
+    216deg,
+    rgba(51, 55, 69, 1) 0%,
+    rgba(34, 42, 70, 1) 100%
+  );
   color: #fcfafa;
   font-family: "Roboto Mono";
 }
@@ -222,7 +226,10 @@ td {
     width: 100%;
   }
 }
-
+.img {
+  max-width: 70%;
+  max-height: 70%;
+}
 a {
   color: #34c9fa;
   text-decoration-style: dashed;
