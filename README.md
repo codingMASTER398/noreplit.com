@@ -254,14 +254,7 @@
   <h3>Alternatives</h3>
   <h4>Completely Free</h4>
   <ol>
-    <li>
-      <p><a href="https://glitch.com/">Glitch</a></p>
-      <ul>
-        <li>Glitch is an online coding platform that emphasizes creative and collaborative
-          coding. It allows you to create and remix projects, experiment with coding, and collaborate with others in
-          real time. It is, however, only suitable for building web applications.</li>
-      </ul>
-    </li>
+    
     <li>
       <p><a href="http://goorm.io/">Goorm</a>, Credit: python660</p>
       <ul>
